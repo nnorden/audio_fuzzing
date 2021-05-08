@@ -1,0 +1,11 @@
+version: "3.9"
+   
+services:
+  fuzzer:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ./fuzz:/home/fuzz
+    stdin_open: true
+    tty: true
