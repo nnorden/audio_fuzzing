@@ -1,9 +1,6 @@
 ## Usage
 
-1. Install docker and docker-compose
-    ``` web
-    https://docs.docker.com/get-started/
-    ```
+1. [Install docker and docker-compose](https://docs.docker.com/get-started/)
     
 2. Build the container and open an interactive shell:
     ``` sh
