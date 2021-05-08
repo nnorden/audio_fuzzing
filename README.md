@@ -22,9 +22,8 @@
     $ ./start.sh
     
     # libFuzz - Lame 3.100
-    $ cd /home/fuzz/lame/libfuzz/src
-    $ make
-    $ chmod u+x ../start.sh
-    $ ../start.sh
+    $ cd /home/fuzz/lame/libfuzz/
+    $ chmod u+x start.sh
+    $ ./start.sh
     ```
 
